@@ -1,7 +1,7 @@
 pipeline {
-  agent { label 'slave1' }
+  agent any
   tools {
-    maven 'maven363'
+    maven 'maven01'
   }
   stages {
     stage('checkout') {
